@@ -20,7 +20,7 @@ The Pro Mini also transmits serial data relating to the Time and Score. This is 
 
 In Putty, find the port that is listening to the Pro Mini and adjust the ‘Default Background’ color to Green (0,255,0). Adjust text size as desired and then create duplicates in OBS and crop to fit in desired boxes. Alternatively, you can run the putty-sessions.reg to create a Favero Input session in Putty that will work.
 
-<h6>Adjusting OBS</h6>
+<h2>Adjusting OBS</h2>
 
 Import the OBS Profile Favero Overlay. Change the Fencing_Camera source to your camera and link the image files for the lights. Make sure the Putty sources are linked. I have found that Putty needs to be fullscreen in the background to properly work. The OBS window should also be active for the hotkeys to be detected by OBS.
 
