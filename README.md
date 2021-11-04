@@ -6,7 +6,7 @@ This uses three Arduinos, two Wemos D1 minis and an Arduino Pro Mini.
 
 <h2>Parsing and Transmitting the Favero Data</h2>
 
-The first Wemos is connected to the output port of the Favero machine and runs Wemos_Favero_Serial_Parser which retrieves and parses the data from the Favero. The Wemos then transmits the data via wifi to the Wemos running Wemos_Favero_ESPNOW_Receiver.
+The first Wemos is connected to the output port of the Favero machine and runs Wemos_Favero_Serial_Parser [Github]( https://github.com/BenKohn2004/Favero_Overlay/tree/main/Wemos_Favero_Serial_Parser) which retrieves and parses the data from the Favero. The Wemos then transmits the data via wifi to the Wemos running Wemos_Favero_ESPNOW_Receiver.
 
 <h2>Receiving the Favero Data</h2>
 
