@@ -22,7 +22,9 @@ The Pro Mini also transmits serial data relating to the Time and Score. This is 
 
 In Putty, find the port that is listening to the Pro Mini and adjust the ‘Default Background’ color to Green (0,255,0). Adjust text size as desired and then create duplicates in OBS and crop to fit in desired boxes. Alternatively, you can run the [putty-sessions.reg](https://github.com/BenKohn2004/Favero_Overlay/blob/main/putty-sessions.reg) to create a Favero Input session in Putty that will work.
 
+The nameplastes are created using the [Lower Third](https://www.youtube.com/watch?v=pg_CwgwWmGA&t=660s&ab_channel=ScottFichter) plugin.
+
 <h2>Adjusting OBS</h2>
 
-Import the OBS Profile Favero Overlay. Change the Fencing_Camera source to your camera and link the image files for the lights. Make sure the Putty sources are linked. I have found that Putty needs to be fullscreen in the background to properly work. The OBS window should also be active for the hotkeys to be detected by OBS.
+Change the Fencing_Camera source to your camera and link the image files for the lights. Make sure the Putty sources are linked. I have found that it helps if Putty is fullscreen in the background. The OBS window should also be active for the hotkeys to be detected by OBS. The hotkeys are assigned in settings using [HID Key Input Tool](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Micro_Pro_Favero_HID_Key_Input_Tool). Program is loaded onto a Micro Pro and then sends a new keystroke each second to the computer, which can be captured in the OBS Settings Hotkeys.
 
