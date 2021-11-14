@@ -30,3 +30,9 @@ Import [Favero_Overlay_Scenes.json](https://github.com/BenKohn2004/Favero_Overla
 Change the Fencing_Camera source to your camera. Check that the Putty Sources are referencing the window displaying Putty. I have found that it helps if Putty is fullscreen in the background. The OBS window should also be active for the hotkeys to be detected by OBS. 
 
 The hotkeys are assigned in the OBS Settings using [HID Key Input Tool](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Micro_Pro_Favero_HID_Key_Input_Tool). The arduino program is loaded onto a Micro Pro and then the Micro Pro sends a new keystroke each second to the computer through a connected USB cord, which can be captured in the OBS Settings Hotkeys. This process can be a bit tedious and frustrating to get correct. [Here](https://github.com/BenKohn2004/Favero_Overlay/blob/main/HotKey%20Settings%20Screen%20Shot.jpg) is an example of how the hotkeys will look when assigned in OBS and shows the correlation between the hotkeys and the data sent from the Favero. The OBS screen has to be active for the hotkeys to toggle the visibility of the lights.
+
+<h2>Using the Time Delay</h2>
+
+Using a camera that has a lag such as a Real Time Streaming Protocol (RTSP) can be mitigated by adding in a delay to the data received by the Micro Pro Mini HID. This is done with the button and potentiometer. When the button is depressed, the Micro Pro Mini will read the potentiometer (a value from 0 to 1024) and delay the receipt of the received data by the potentiometer value in milliseconds. The Red LED will also light indicating when the delay is active and when it is not. The value of the delay is shown as the last value displayed on the Putty window.
+
+I found this useful when using [iVcam](https://www.e2esoft.com/ivcam/), where a delay of 364 milliseconds allowed the data and webcam to nearly sync up.
