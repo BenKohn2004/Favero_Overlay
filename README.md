@@ -6,7 +6,7 @@ This uses three Arduinos, two [Wemos D1 minis](https://www.amazon.com/Organizer-
 
 <h2>Libraries</h2>
 
-The Libraries used for the Arduino are FastLED, ESPNOW, Wire.h, ESP8266WiFi
+The Libraries used for the Arduino are FastLED, ESPNOW, Wire.h, ESP8266WiFi. The libraries ESPNOW and Wire.h are included by default with the Arduino IDE.
 
 <h2>Parsing and Transmitting the Favero Data</h2>
 
