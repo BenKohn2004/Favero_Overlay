@@ -24,7 +24,7 @@ The Pro Mini acts as a human input device, i.e. a Keyboard, and presses keys tha
 
 The Pro Mini also transmits serial data relating to the Time and Score. This is displayed using Putty. Putty is then displayed in OBS through a Window Capture Source using a Chroma Key filter.
 
-In Putty, find the port that is listening to the Pro Mini and adjust the ‘Default Background’ color to Green (0,255,0). Adjust text size as desired and then create duplicates in OBS and crop to fit in desired boxes. Alternatively, you can run the [putty-sessions.reg](https://github.com/BenKohn2004/Favero_Overlay/blob/main/putty-sessions.reg) to create a Favero Input session in Putty that will work.
+In Putty, find the port that is listening to the Pro Mini and adjust the ‘Default Background’ color to Green (0,255,0). In OBS add a filter to the Putty Window Capture, by default the Green will be filtered out. Adjust text size as desired and then create duplicates in OBS and crop to fit in desired boxes. Alternatively, you can run the [putty-sessions.reg](https://github.com/BenKohn2004/Favero_Overlay/blob/main/putty-sessions.reg) to create a Favero Input session in Putty that will work.
 
 The nameplastes are created using the [Lower Third](https://www.youtube.com/watch?v=pg_CwgwWmGA&t=660s&ab_channel=ScottFichter) plugin.
 
