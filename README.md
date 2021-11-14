@@ -35,4 +35,4 @@ The hotkeys are assigned in the OBS Settings using [HID Key Input Tool](https://
 
 Using a camera that has a lag such as a Real Time Streaming Protocol (RTSP) can be mitigated by adding in a delay to the data received by the Micro Pro Mini HID. This is done with the button and potentiometer. When the button is depressed, the Micro Pro Mini will read the potentiometer (a value from 0 to 1024) and delay the receipt of the received data by the potentiometer value in milliseconds. The Red LED will also light indicating when the delay is active and when it is not. The value of the delay is shown as the last value displayed on the Putty window.
 
-I found this useful when using [iVcam](https://www.e2esoft.com/ivcam/), where a delay of 364 milliseconds allowed the data and webcam to nearly sync up.
+I found this useful when using [iVcam](https://www.e2esoft.com/ivcam/), where a delay of 364 milliseconds allowed the data and webcam to nearly sync up. The potentiometer makes it possible to quickly adjust the delay without reloading data and the pushbutton allows to quickly change between cameras with little lag, such as webcams, and cameras with more lag.
