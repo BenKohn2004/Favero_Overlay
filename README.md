@@ -30,7 +30,7 @@ The nameplastes are created using the [Lower Third](https://www.youtube.com/watc
 
 <h2>Adjusting OBS</h2>
 
-Import [Favero_Overlay_Scenes.json](https://github.com/BenKohn2004/Favero_Overlay/blob/main/Favero_Overlay_Scenes.json) and link the image files for the lights.
+Import [Favero_Overlay.json](https://github.com/BenKohn2004/Favero_Overlay/blob/main/Favero_Overlay.json) and link the image files for the lights.
 Change the Fencing_Camera source to your camera. Check that the Putty Sources are referencing the window displaying Putty. I have found that it helps if Putty is fullscreen in the background. The OBS window should also be active for the hotkeys to be detected by OBS. 
 
 The hotkeys are assigned in the OBS Settings using [HID Key Input Tool](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Micro_Pro_Favero_HID_Key_Input_Tool). The arduino program is loaded onto a Micro Pro and then the Micro Pro sends a new keystroke each second to the computer through a connected USB cord, which can be captured in the OBS Settings Hotkeys. This process can be a bit tedious and frustrating to get correct. [Here](https://github.com/BenKohn2004/Favero_Overlay/blob/main/HotKey%20Settings%20Screen%20Shot.jpg) is an example of how the hotkeys will look when assigned in OBS and shows the correlation between the hotkeys and the data sent from the Favero. The OBS screen has to be active for the hotkeys to toggle the visibility of the lights.
