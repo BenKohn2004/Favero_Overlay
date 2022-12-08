@@ -12,7 +12,7 @@ The Libraries used for the Arduino are FastLED, ESPNOW, Wire.h, ESP8266WiFi. The
 
 The MAC addresses for the Wemos can be found by loading and running [Wemos_ESPNOW_MacAddress](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Wemos_ESPNOW_MacAddress).
 
-The first Wemos is connected to the output port of the Favero machine and runs [Wemos_Favero_Serial_Parser]( https://github.com/BenKohn2004/Favero_Overlay/tree/main/Wemos_Favero_Serial_Parser) which retrieves and parses the data from the Favero. The Wemos then transmits the data via wifi to the Wemos running [Wemos_Favero_ESPNOW_Receiver](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Wemos_Favero_ESPNOW_Receiver).
+The first Wemos is connected to the output port of the Favero machine and runs [Wemos_Favero_Serial_Parser_Rev_1]( https://github.com/BenKohn2004/Favero_Overlay/tree/main/Wemos_Favero_Serial_Parser) which retrieves and parses the data from the Favero. The Wemos then transmits the data via wifi to the Wemos running [Wemos_Favero_ESPNOW_Receiver](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Wemos_Favero_ESPNOW_Receiver).
 
 <h2>Receiving the Favero Data</h2>
 
