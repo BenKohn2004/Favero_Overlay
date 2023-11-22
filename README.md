@@ -20,7 +20,7 @@ The Wemos running Wemos_Favero_ESPNOW_Receiver, is connected by I2C to the Ardui
 
 <h2>Displaying the Favero Data</h2>
 
-The Pro Mini acts as a human input device, i.e. a Keyboard, and presses keys that correlate to the data received from the Favero. The keys are associated with Hotkey in OBS and toggle the visibility of the displays such as the Red/Green/White Lights as well as the grounding light and priority. The Keys chosen are similar to F13 through F24 with CTRL or ALT pressed. The [Micro_Pro_Favero_HID_Key_Input](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Micro_Pro_Favero_HID_Key_Input_Tool) can be used to aid in inputting these keys as Hotkeys in OBS.
+The Pro Mini acts as a human input device, i.e. a Keyboard, and presses keys that correlate to the data received from the Favero. The keys are associated with Hotkeys in OBS and toggle the visibility of the displays such as the Red/Green/White Lights as well as the grounding light and priority. The Keys chosen are similar to F13 through F24 with CTRL or ALT pressed. The [Micro_Pro_Favero_HID_Key_Input](https://github.com/BenKohn2004/Favero_Overlay/tree/main/Micro_Pro_Favero_HID_Key_Input_Tool) can be used to aid in inputting these keys as Hotkeys in OBS.
 
 The Pro Mini also transmits serial data relating to the Time and Score. This is displayed using Putty. Putty is then displayed in OBS through a Window Capture Source using a Chroma Key filter.
 
